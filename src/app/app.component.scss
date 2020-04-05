@@ -1,3 +1,49 @@
-h3 {
-  height: 32px;
+p {
+  color: #1eb2a6;
+  margin: 0;
+  font-size: 16px;
+}
+
+.quote {
+  height: 60px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 500;
+  color: #204051;
+}
+
+.main-container {
+  padding: 5%;
+  text-align: center;
+}
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: #204051 radial-gradient(circle, transparent 1%, #204051 1%) center/15000%;
+}
+.ripple:active {
+  background-color: #274b5e;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* Button style */
+button {
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: #204051;
+  box-shadow: 0 0 4px #999;
+  outline: none;
 }

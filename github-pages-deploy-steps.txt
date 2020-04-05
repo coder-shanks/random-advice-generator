@@ -1,0 +1,5 @@
+npm i -g angular-cli-ghpages
+
+ng build --prod --base-href “https://coder-shanks.github.io/random-advice-generator/”
+
+ngh or angular-cli-ghpages
