@@ -1,7 +1,6 @@
-p {
-  color: #1eb2a6;
-  margin: 0;
-  font-size: 16px;
+.main-container {
+  padding: 5%;
+  text-align: center;
 }
 
 .quote {
@@ -11,14 +10,23 @@ p {
   margin-bottom: 20px;
 }
 
+p {
+  color: #1eb2a6;
+  margin: 0;
+  font-size: 16px;
+}
+
 h2 {
   font-weight: 500;
   color: #204051;
 }
 
-.main-container {
-  padding: 5%;
-  text-align: center;
+#heart {
+  color: #ff0000;
+}
+
+footer {
+  padding-top: 20px;
 }
 
 /* Ripple effect */
@@ -27,7 +35,8 @@ h2 {
   transition: background 0.8s;
 }
 .ripple:hover {
-  background: #204051 radial-gradient(circle, transparent 1%, #204051 1%) center/15000%;
+  background: #204051 radial-gradient(circle, transparent 1%, #204051 1%)
+    center/15000%;
 }
 .ripple:active {
   background-color: #274b5e;
